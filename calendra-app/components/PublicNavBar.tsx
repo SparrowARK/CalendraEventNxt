@@ -2,6 +2,7 @@ import { SignUpButton } from "@clerk/clerk-react";
 import { SignInButton } from "@clerk/nextjs";
 import Image from "next/image";
 import Link from "next/link";
+import { Button } from "./ui/button";
 
 export default function PublicNavBar() {
   return (
@@ -29,10 +30,10 @@ export default function PublicNavBar() {
       <section>
         <div>
           <SignInButton>
-            <Button></Button>
+            <Button>Login</Button>
           </SignInButton>
           <SignUpButton>
-            <Button></Button>
+            <Button>Register</Button>
           </SignUpButton>
         </div>
       </section>

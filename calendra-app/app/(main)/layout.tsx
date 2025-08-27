@@ -1,3 +1,5 @@
+import PrivateNavBar from "@/components/PrivateNavBar";
+import PublicNavBar from "@/components/PublicNavBar";
 import { currentUser } from "@clerk/nextjs/server";
 
 export default async function MainLayout({
